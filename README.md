@@ -5,7 +5,7 @@
 > Every tutorial shows you the happy path — three agents, one prompt, flawless output.
 > Nobody shows you the second run. That's where it all falls apart.
 >
-> This is the pipeline we run in production. Four agents, wired by hand.
+> This is the pipeline I run in production. Four agents, wired by hand.
 > No framework. No hidden retries. Every failure stays visible.
 
 ## What this is
@@ -110,6 +110,13 @@ The happy path takes 20 minutes to build. Breaking it properly is the real work.
 - **Search**: `agents/search.py` uses DuckDuckGo (no key required) — swap in
   Tavily/Brave/SerpAPI behind the same `research_notes()` signature.
 - **Language**: the agents are 30 lines each. Port them to whatever you like.
+
+## Say something
+
+Star it if you'd run it. Open an issue when it breaks — the second run is where
+the real lessons live, and that's the whole point of this repo.
+
+What's the most polished wrong answer an AI ever gave you? Tell us. Issues are open.
 
 ## License
 
