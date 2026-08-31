@@ -64,7 +64,7 @@ Hand-wired agents fail loudly. You want loud. Logs are cheap; silent confidence 
 ## Quickstart
 
 ```bash
-git clone https://github.com/zeroqueries/multi-agent-research-pipeline.git
+git clone https://github.com/Amz34/multi-agent-research-pipeline.git
 cd multi-agent-research-pipeline
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
