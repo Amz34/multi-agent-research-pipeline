@@ -1,0 +1,15 @@
+{
+  "topic": "impact of AI agents on developer workflows",
+  "summary": {
+    "title": "How AI Agents Are Revolutionizing Software Development Workflows",
+    "keyPoints": [
+      "AI agents are automating routine coding tasks and implementation, shifting developers' primary work from writing code to writing prompts, reviewing output, and making judgment calls.",
+      "Research from JetBrains shows AI tools are reshaping developer workflows in ways that often elude developers' own perceptions, with context awareness proving more important than clever prompting.",
+      "AI agents boost productivity by explaining code, improving documentation, and guiding troubleshooting, but their effectiveness is amplified by developer platforms and psychological safety for responsible experimentation."
+    ],
+    "takeaway": "AI agents are transforming software development by automating implementation and reshaping developer roles toward oversight, context gathering, and higher-level decision-making, with success depending on strong context and supportive platforms."
+  },
+  "iterations": 1,
+  "verdict": "APPROVED",
+  "status": "ok"
+}
