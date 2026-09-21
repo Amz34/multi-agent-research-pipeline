@@ -121,3 +121,7 @@ What's the most polished wrong answer an AI ever gave you? Tell us. Issues are o
 ## License
 
 MIT. Steal it, break it, ship it — and tell us what broke.
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).
