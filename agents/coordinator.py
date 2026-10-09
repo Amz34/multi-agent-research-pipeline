@@ -1,7 +1,9 @@
 """Agent 4: Coordinator - wires the 3 agents, owns the retry loop.
 
-Same shape as Vaibhav's coordinator (MAX_ITERATIONS = 5) plus a hard
-per-attempt timeout so a single stuck call can never hang the pipeline.
+The evaluator can ask for a revision for as long as it likes; the loop is
+capped at MAX_ITERATIONS and the best result so far is returned. Every
+attempt runs under a hard timeout, so a single stuck call can never hang
+the pipeline.
 """
 from logger import log
 

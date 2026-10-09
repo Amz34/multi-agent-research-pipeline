@@ -1,7 +1,7 @@
 """Structured JSONL logger - FIRST thing in the pipeline.
 
-Vaibhav's #1 lesson: failures hide in the handoffs between agents,
-so every agent call AND every handoff gets logged to a per-run file.
+Failures hide in the handoffs between agents, not inside the agents, so
+every agent call AND every handoff gets logged to a per-run file.
 """
 import json
 import os
